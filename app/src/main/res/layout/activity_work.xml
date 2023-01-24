@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Work">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="STPO"
+        android:textColor="@color/black"
+        android:textSize="60sp">
+    </TextView>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Student Placement Officer(BCA) "
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:text="Mapping Students with right industries for internships and placements"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:text="Making records of various companies that visit in campus drive(placements)"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="45dp"
+        android:text="*Coming up with some technical experience soon!"
+        android:textColor="@color/teal_200"
+        android:textSize="30sp"/>
+</LinearLayout>

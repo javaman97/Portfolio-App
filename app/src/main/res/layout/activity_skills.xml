@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Skills">
+    <TextView
+        android:id="@+id/txt_os"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Operating System"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="#F40303" />
+    <TextView
+        android:id="@+id/txt_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Android"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textColor="#9C27B0" />
+    <TextView
+        android:id="@+id/txt_languages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Languages"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="#673AB7" />
+    <TextView
+        android:id="@+id/txt_kotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kotlin"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textColor="#9C27B0" />
+    <TextView
+        android:id="@+id/txt_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Xml"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#0C05F1" />
+    <TextView
+        android:id="@+id/txt_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Java"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:textColor="#F80404" />
+    <TextView
+        android:id="@+id/txt_python"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Python"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#FF5722" />
+    <TextView
+        android:id="@+id/txt_cplusplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="C++"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#8BC34A" />
+
+    <TextView
+        android:id="@+id/txt_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Databases"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="#009688" />
+    <TextView
+        android:id="@+id/txt_sql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sql"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textColor="#03A9F4" />
+    <TextView
+        android:id="@+id/txt_room_sqlite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Room DB(Sqlite)"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:textColor="#03A9F4" />
+    <TextView
+        android:id="@+id/txt_tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tools"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="#F44336" />
+    <TextView
+        android:id="@+id/txt_figma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Figma,Android Studio,Firebase,Vs Code"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textColor="#E91E63" />
+</LinearLayout>

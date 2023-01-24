@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/profile"/>
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Aman Nishad"
+        android:textColor="#000"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/txt_designation"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Native Android App Developer"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent">
+    <Button
+        android:id="@+id/btn_skills"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:text="Skills"
+        android:textSize="15sp" />
+        <Button
+            android:id="@+id/btn_education"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:textSize="15sp"
+            android:text="EDUCATION" />
+    <Button
+        android:id="@+id/btn_work"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn_skills"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="WORK"
+        android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_achievements"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn_education"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="30dp"
+            android:text="ACHIEVEMENTS"
+            android:textSize="15sp" />
+</RelativeLayout>
+</LinearLayout>
